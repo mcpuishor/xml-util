@@ -1,0 +1,30 @@
+{
+    "name": "mcpuishor/xml-util",
+    "description": "Utilities to be used for XML validation and pre-processing",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "version" : "0.0.1",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mcpuishor\\XmlUtil\\XmlUtilServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "rodenastyle/stream-parser": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Robert Tudor",
+            "email": "eu@robert-tudor.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mcpuishor\\XmlUtil\\": "src/"
+        }
+    }
+}

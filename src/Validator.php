@@ -1,5 +1,5 @@
 <?php
-namespace App\XmlUtilities;
+namespace Mcpuishor\XmlUtil;
 
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
